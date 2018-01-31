@@ -3,12 +3,12 @@ package com.amz.Controller;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+ 
 @Controller
 @ComponentScan()
 public class WelcomeController {
 
-	
+	//New comment from Shantnu Testing
 	@RequestMapping("/")
 	public String index()
 	{
